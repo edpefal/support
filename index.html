@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte - Mi App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <i class="fas fa-headset"></i>
+                <span>Soporte</span>
+            </div>
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>¿Necesitas ayuda?</h1>
+                <p>Estamos aquí para ayudarte con cualquier pregunta o problema que puedas tener con nuestra aplicación.</p>
+                <div class="hero-buttons">
+                    <a href="#faq" class="btn btn-primary">Ver Preguntas Frecuentes</a>
+                    <a href="#contacto" class="btn btn-secondary">Contactar Soporte</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-life-ring"></i>
+            </div>
+        </section>
+
+        <!-- Quick Help Section -->
+        <section class="quick-help">
+            <div class="container">
+                <h2>Ayuda Rápida</h2>
+                <div class="help-grid">
+                    <div class="help-card">
+                        <i class="fas fa-book"></i>
+                        <h3>Documentación</h3>
+                        <p>Consulta nuestra documentación completa para aprender a usar todas las funciones.</p>
+                        <a href="#" class="card-link">Ver Documentación</a>
+                    </div>
+                    <div class="help-card">
+                        <i class="fas fa-video"></i>
+                        <h3>Tutoriales</h3>
+                        <p>Mira nuestros tutoriales en video para dominar la aplicación paso a paso.</p>
+                        <a href="#" class="card-link">Ver Tutoriales</a>
+                    </div>
+                    <div class="help-card">
+                        <i class="fas fa-comments"></i>
+                        <h3>Comunidad</h3>
+                        <p>Únete a nuestra comunidad y obtén ayuda de otros usuarios.</p>
+                        <a href="#" class="card-link">Unirse a la Comunidad</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2>Preguntas Frecuentes</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cómo puedo crear una cuenta?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Para crear una cuenta, ve a la página de registro y completa el formulario con tu información. Recibirás un email de confirmación para activar tu cuenta.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Olvidé mi contraseña, qué hago?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>En la página de inicio de sesión, haz clic en "¿Olvidaste tu contraseña?" e ingresa tu email. Te enviaremos un enlace para restablecer tu contraseña.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cómo puedo cancelar mi suscripción?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Ve a Configuración > Suscripción y haz clic en "Cancelar suscripción". Tu acceso continuará hasta el final del período de facturación actual.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿La aplicación funciona sin conexión a internet?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Algunas funciones básicas están disponibles sin conexión, pero para la funcionalidad completa necesitas una conexión a internet estable.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cómo puedo exportar mis datos?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Ve a Configuración > Privacidad y Datos, y selecciona "Exportar datos". Recibirás un archivo con toda tu información en formato JSON.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2>Contacta con Nosotros</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Información de Contacto</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>soporte@miapp.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horario de Atención</h4>
+                                <p>Lunes a Viernes: 9:00 - 18:00</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-reply"></i>
+                            <div>
+                                <h4>Tiempo de Respuesta</h4>
+                                <p>Generalmente respondemos en menos de 24 horas</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <h3>Enviar Mensaje</h3>
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="bug">Reportar un error</option>
+                                <option value="feature">Solicitar función</option>
+                                <option value="account">Problema con cuenta</option>
+                                <option value="billing">Problema de facturación</option>
+                                <option value="other">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Describe tu problema o pregunta en detalle..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Enlaces Útiles</h4>
+                    <ul>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Términos de Servicio</a></li>
+                        <li><a href="#">Estado del Servicio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mi App. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
