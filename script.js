@@ -54,29 +54,29 @@ document.addEventListener('DOMContentLoaded', function() {
             const subject = formData.get('subject');
             const message = formData.get('message');
             
-            // Validación básica
+            // Basic validation
             if (!name || !email || !subject || !message) {
-                alert('Por favor, completa todos los campos requeridos.');
+                alert('Please fill in all required fields.');
                 return;
             }
             
-            // Validación de email
+            // Email validation
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
-                alert('Por favor, ingresa un email válido.');
+                alert('Please enter a valid email address.');
                 return;
             }
             
-            // Simular envío del formulario
+            // Simulate form submission
             const submitButton = this.querySelector('button[type="submit"]');
             const originalText = submitButton.textContent;
             
-            submitButton.textContent = 'Enviando...';
+            submitButton.textContent = 'Sending...';
             submitButton.disabled = true;
             
-            // Simular delay de envío
+            // Simulate sending delay
             setTimeout(() => {
-                alert('¡Mensaje enviado con éxito! Te responderemos pronto.');
+                alert('Message sent successfully! We will respond soon.');
                 this.reset();
                 submitButton.textContent = originalText;
                 submitButton.disabled = false;
@@ -126,10 +126,10 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
     
-    // Búsqueda en FAQ (funcionalidad adicional)
+    // FAQ search (additional functionality)
     const searchInput = document.createElement('input');
     searchInput.type = 'text';
-    searchInput.placeholder = 'Buscar en preguntas frecuentes...';
+    searchInput.placeholder = 'Search in frequently asked questions...';
     searchInput.style.cssText = `
         width: 100%;
         max-width: 500px;

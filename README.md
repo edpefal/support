@@ -1,98 +1,98 @@
-# Página de Soporte - GitHub Pages
+# Support Page - GitHub Pages
 
-Esta es una página de soporte moderna y responsiva diseñada para ser desplegada en GitHub Pages.
+This is a modern and responsive support page designed to be deployed on GitHub Pages.
 
-## Características
+## Features
 
-- ✅ Diseño moderno y responsivo
-- ✅ Sección de preguntas frecuentes (FAQ) interactiva
-- ✅ Formulario de contacto funcional
-- ✅ Navegación suave entre secciones
-- ✅ Animaciones y efectos visuales
-- ✅ Optimizado para dispositivos móviles
-- ✅ Compatible con GitHub Pages
+- ✅ Modern and responsive design
+- ✅ Interactive FAQ section
+- ✅ Functional contact form
+- ✅ Smooth navigation between sections
+- ✅ Animations and visual effects
+- ✅ Mobile device optimized
+- ✅ GitHub Pages compatible
 
-## Estructura de archivos
+## File Structure
 
 ```
 support/
-├── index.html          # Página principal
-├── styles.css          # Estilos CSS
-├── script.js           # JavaScript para interactividad
-└── README.md           # Este archivo
+├── index.html          # Main page
+├── styles.css          # CSS styles
+├── script.js           # JavaScript for interactivity
+└── README.md           # This file
 ```
 
-## Cómo desplegar en GitHub Pages
+## How to Deploy on GitHub Pages
 
-### Opción 1: Repositorio dedicado
+### Option 1: Dedicated Repository
 
-1. Crea un nuevo repositorio en GitHub llamado `tu-usuario.github.io`
-2. Sube todos los archivos de este directorio al repositorio
-3. Ve a Settings > Pages en tu repositorio
-4. Selecciona "Deploy from a branch" y elige "main"
-5. Tu página estará disponible en `https://tu-usuario.github.io`
+1. Create a new repository on GitHub called `your-username.github.io`
+2. Upload all files from this directory to the repository
+3. Go to Settings > Pages in your repository
+4. Select "Deploy from a branch" and choose "main"
+5. Your page will be available at `https://your-username.github.io`
 
-### Opción 2: Subdirectorio en repositorio existente
+### Option 2: Subdirectory in Existing Repository
 
-1. Crea una carpeta llamada `docs` en tu repositorio existente
-2. Copia todos los archivos a la carpeta `docs`
-3. Ve a Settings > Pages en tu repositorio
-4. Selecciona "Deploy from a branch" y elige "main" / "docs"
-5. Tu página estará disponible en `https://tu-usuario.github.io/tu-repositorio`
+1. Create a folder called `docs` in your existing repository
+2. Copy all files to the `docs` folder
+3. Go to Settings > Pages in your repository
+4. Select "Deploy from a branch" and choose "main" / "docs"
+5. Your page will be available at `https://your-username.github.io/your-repository`
 
-## Personalización
+## Customization
 
-### Cambiar el nombre de la app
+### Change App Name
 
-1. Edita `index.html` y cambia "Mi App" por el nombre de tu aplicación
-2. Actualiza el email de contacto en la sección de contacto
-3. Modifica los enlaces de redes sociales en el footer
+1. Edit `index.html` and change "My App" to your application name
+2. Update the contact email in the contact section
+3. Modify social media links in the footer
 
-### Agregar más preguntas frecuentes
+### Add More FAQ Questions
 
-1. Edita `index.html`
-2. Encuentra la sección `.faq-list`
-3. Agrega nuevos elementos `.faq-item` siguiendo la estructura existente
+1. Edit `index.html`
+2. Find the `.faq-list` section
+3. Add new `.faq-item` elements following the existing structure
 
-### Cambiar colores y estilos
+### Change Colors and Styles
 
-1. Edita `styles.css`
-2. Modifica las variables CSS al inicio del archivo
-3. Los colores principales están definidos con valores hexadecimales
+1. Edit `styles.css`
+2. Modify CSS variables at the beginning of the file
+3. Main colors are defined with hexadecimal values
 
-## Funcionalidades JavaScript
+## JavaScript Features
 
-- **FAQ interactiva**: Los elementos se expanden/contraen al hacer clic
-- **Navegación suave**: Scroll suave entre secciones
-- **Formulario de contacto**: Validación básica y simulación de envío
-- **Header dinámico**: Se oculta/muestra según el scroll
-- **Animaciones**: Elementos aparecen con animación al hacer scroll
-- **Búsqueda en FAQ**: Campo de búsqueda para filtrar preguntas
+- **Interactive FAQ**: Elements expand/collapse on click
+- **Smooth navigation**: Smooth scroll between sections
+- **Contact form**: Basic validation and submission simulation
+- **Dynamic header**: Hides/shows based on scroll
+- **Animations**: Elements appear with animation on scroll
+- **FAQ search**: Search field to filter questions
 
-## Tecnologías utilizadas
+## Technologies Used
 
-- HTML5 semántico
-- CSS3 con Flexbox y Grid
-- JavaScript vanilla (ES6+)
-- Font Awesome para iconos
+- Semantic HTML5
+- CSS3 with Flexbox and Grid
+- Vanilla JavaScript (ES6+)
+- Font Awesome for icons
 - Google Fonts (Inter)
 
-## Compatibilidad
+## Compatibility
 
 - ✅ Chrome 60+
 - ✅ Firefox 55+
 - ✅ Safari 12+
 - ✅ Edge 79+
-- ✅ Dispositivos móviles
+- ✅ Mobile devices
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT. Puedes usarlo libremente para tus proyectos.
+This project is under the MIT License. You can use it freely for your projects.
 
-## Soporte
+## Support
 
-Si tienes preguntas sobre esta página de soporte, puedes:
+If you have questions about this support page, you can:
 
-1. Revisar la documentación de GitHub Pages
-2. Consultar la documentación de HTML/CSS/JavaScript
-3. Crear un issue en el repositorio si encuentras algún problema
+1. Check GitHub Pages documentation
+2. Consult HTML/CSS/JavaScript documentation
+3. Create an issue in the repository if you find any problems
